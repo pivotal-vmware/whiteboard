@@ -45,6 +45,8 @@ GEM
     childprocess (0.3.2)
       ffi (~> 1.0.6)
     chunky_png (1.2.5)
+    ci_reporter (1.7.3)
+      builder (>= 2.1.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -221,6 +223,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara
   capybara-webkit
+  ci_reporter
   coffee-rails (~> 3.2.1)
   compass-rails
   database_cleaner
